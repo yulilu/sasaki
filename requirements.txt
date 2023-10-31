@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+SpeechRecognition
+pydantic==2.4.2
+openai
+langchain==0.0.323
+python-multipart
