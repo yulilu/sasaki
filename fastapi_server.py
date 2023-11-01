@@ -18,6 +18,10 @@ from langchain.schema import (
 #if not openai_api_key:
 #    raise ValueError("OpenAI API key not found in environment variables.")
 
+import pydantic
+print('pydantic:',pydantic.__version__)
+import langchain
+print('langchain:',langchain.__version__)
 
 app = FastAPI()
 
